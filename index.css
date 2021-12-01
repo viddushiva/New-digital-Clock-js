@@ -1,0 +1,380 @@
+body{
+    background-color:rgb(61,8,123);
+}
+.big{
+    /* position: relative; */
+    display: flex;
+    /* grid-template-columns: 1fr 4fr; */
+    height: 220px;
+    
+}
+.clock{
+    margin-top: 1%;
+    margin-left: 5%;
+
+
+}
+.timing{
+    
+   height: 140px;
+    background: white;
+    
+    display: flex;
+    text-align: center;
+   
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.per{
+    background-image: url(./images/timeline.svg);
+
+
+height: 50px;
+width: 50px;
+padding: 30px;
+margin: 10px;
+
+
+}
+.pre{ background-image: url(./images/timeline.svg);
+   
+    
+    box-shadow: 10px,5px,10px,20px black;
+    background-color: white;
+    
+    height: 50px;
+    width: 50px;
+padding: 30px;
+margin: 10px;
+
+}
+
+    .erp{
+        background: url(./images/timeline.svg);
+
+    box-shadow: 10px,5px,10px,20px black;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+padding: 30px;
+    
+
+    margin: 10px;
+
+
+
+}
+.ppp{
+    background: url(./images/timeline.svg);
+    box-shadow: 10px,1px,10px,10px black;
+    background-color:rgb(186,82,246);
+    height: 50px;
+    width: 50px;
+padding: 30px;
+    
+    margin: 10px;
+}
+.rrr{
+    
+    height: 50px;
+    width: 50px;
+    box-shadow: black 5px;
+padding: 30px;
+    
+    
+    
+}
+
+.z{
+    position: absolute;
+    width: 28%;
+    background-color: white;
+    z-index: -1;
+    height: 103px;
+    border-radius: 10px;
+    margin-left: 51%;
+    margin-top: 4%;
+    opacity: 42%;
+
+    
+}
+.y{
+    position: absolute;
+    width: 28%;
+    background-color: white;
+    z-index: -1;
+    height: 113px;
+    border-radius: 10px;
+    margin-left: 51%;
+    margin-top: 4%;
+    opacity: 50%;
+}
+.do{
+    /* position: absolute;
+    left: 57%;
+    
+    top: 25%; */
+    font-size: 50px;
+    margin-top: 5%;
+}
+.di{
+    /* position: absolute;
+    left: 78%; */
+    font-size: 50px;
+    margin-top: 5%;
+    /* top: 25%; */
+}
+.dots{
+    margin-top: 5%;
+     font-size: 50px;
+ }
+
+
+.second2{
+    display: flex;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+    height: 340px;
+    
+  
+    border-radius: 10px;
+    
+}
+.new1{
+    margin: 5px;
+    margin-left: 0%;
+    height: 340px;
+    width: 400px;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.launchimage{
+    height: 340px;
+    margin-top: 2%;
+    border: 5px solid none;
+    margin-left: 40%;
+    color: white;
+
+width: 500px;
+    
+    background: url(./50-ballon-lolgifts-original-imaez4fxmjaq59hv.jpeg);
+    
+    
+    
+    
+   
+    
+
+}  
+.bfast{
+    font-size: 35px;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    height: 60px;
+    background: url(./images/timeline.svg);
+    width: 500px;
+    text-align: center;
+    
+
+}
+.section{
+    width: 30%;
+   
+    
+    
+    background-color: white;
+  
+    border-radius: 10px;
+}
+.firstrow{
+    display: flex;
+    
+    margin: 1px;
+    padding: 1px;
+}
+
+.wakeup{
+    /* position: absolute;
+    left: 6%;
+    top: 3%;  */
+    width: 12%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.setw{
+    /* position: absolute;
+    left: 26%;
+    top: 5%; */
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+ .select{
+    margin-top: 8%;
+    margin-left: 10%;
+    /* margin-right:1% ; */
+} 
+.line{
+    height: 41px;
+        width: 3px;
+        background-color: #C2C2C2;
+        margin-left: 11%;
+        margin-top: 2%;
+}
+.secondrow{
+    display: flex;
+    
+    margin: 1px;
+    padding: 1px;
+}
+.setw2{
+    /* position: absolute;
+    left: 26%;
+    top: 38%; */
+    font-size: 18px;
+    margin-left: 9%;
+    margin-top: 5%;
+}
+.select2{
+    margin-top: 5%;
+    margin-left: 11%;
+}
+.line2{
+    height: 41px;
+    width: 3px;
+    margin-left: 11%;
+    background-color: #C2C2C2;
+    margin-top: 2%;
+   
+
+}
+.wakeup2{
+    
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 12%;
+}
+
+.setw3{
+   
+    font-size: 18px;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+.wakeup3{
+    margin-left: 7%;
+    width: 12%;
+    margin-top: 4%;
+}
+.select3{
+    
+        margin-top: 5%;
+        margin-left: 16%;
+    
+}
+
+.button{
+    width: 30%;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    background: transparent linear-gradient(
+        113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+        transition: background
+        
+        
+}
+.button:hover{
+    background: transparent linear-gradient(
+        113deg,#FC5EFF 81%, #F1A7C5 100%, #CB52F8 40%,#6E54EC 0% );
+}
+.print{
+    width: 30%;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(110, 110, 172);
+    border: 5px solid rgb(110, 110, 172);
+    text-align: center;
+
+}
+.zxc{
+    width: 30%;
+   
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(110, 110, 172);
+    border: 5px solid rgb(110, 110, 172);
+    text-align: center;
+    display: none;
+
+}
+.zxd{
+    width: 30%;
+   
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(110, 110, 172);
+    border: 5px solid rgb(110, 110, 172);
+    text-align: center;
+    display: none;
+
+}
+.zxe{
+    width: 30%;
+   
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    background:rgb(110, 110, 172);
+    border: 5px solid rgb(110, 110, 172);
+    text-align: center;
+    
+    display: none;
+
+}
+.get{
+    width: 30%;
+   
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    background:blue;
+    border: none;
+    text-align: center;
+    display: block;
+    
+
+}
